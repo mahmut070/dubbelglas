@@ -1,0 +1,225 @@
+.Content {
+
+}
+
+//Home top area
+.content-home{
+	  background: #ffffff;
+	  padding-top:20px;
+	  padding-bottom: 20px;
+}
+
+.titel-blue{
+	color: #175b9a;
+	display: inline;
+}
+
+.Content--home{
+	color: #6f6f6f;
+}
+
+.intro-text{
+	color: #6f6f6f;
+}
+
+.button-style{
+	border-radius: 5px;
+	border:1px solid #303539;
+	color: #ffffff;
+	padding: 10px 25px 10px 25px;
+	@include background-image(linear-gradient(to top, #2c5a8e, #3679c7));
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	box-shadow:         inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	&:hover{
+		@include background-image(linear-gradient(to top, #fe7203, #ee8a00));
+	}	
+}
+
+.content-left{
+	position: relative;
+}
+
+.meer-info{
+	margin-left: 174px;
+	position: absolute;
+	right: 0;
+	bottom: -134px;
+}
+
+
+//Home afspraak area
+.afspraak-area{
+	background: #eeeeee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.big-button{
+	border-radius: 5px;
+	border:1px solid #303539;
+	color: #ffffff;
+	padding: 0px 10px 0px 20px;
+	position: relative;
+	@include background-image(linear-gradient(to top, #2c5a8e, #3679c7));
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	box-shadow:         inset 0px 1px 1px 0px rgba(255, 255, 255, 1);	
+}
+
+.big-button a{
+	font-size: 25px;
+}
+
+.big-button-text{
+	font-size: 20px;
+}
+
+.orange-button{
+	border-radius: 5px;
+	border:1px solid #303539;
+	color: #ffffff;
+	padding: 10px 25px 10px 25px;
+	width: 262px;
+	text-align: Center;
+	position: absolute;
+	right: 20px;
+	top: 22px;
+	@include background-image(linear-gradient(to top, #fe7203, #ee8a00));
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	box-shadow:         inset 0px 1px 1px 0px rgba(255, 255, 255, 1);	
+}
+
+.telefoon-icon{
+	width: 32px;
+	vertical-align: middle;
+}
+
+
+//Main content area
+.page-title{
+	color: #f87b07;
+}
+
+.page-title-landingspagina{
+	color: #f87b07;
+	display: inline;
+}
+
+.Content--content{
+	color: #6f6f6f;
+}
+
+.side-image{
+	border:3px solid #ffffff;
+	margin-top: 14px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.25);
+}
+
+.main-content{
+	background: #ffffff;
+}
+
+.main-content-space{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.home-boxes{
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+.home-boxes b{
+	font-size: 16px;
+}
+
+.home-boxes p {
+	text-align: left;
+	color: #6f6f6f;
+}
+
+.home-boxes img{
+	margin-top: 10px;
+	width: 255px;
+}
+
+.home-box-right{
+	margin-top: 20px;
+}
+
+.home-box-right b{
+	font-size: 16px;
+}
+
+.producten-lijst{
+	color: #8a8a8a;
+	list-style-image: url('../img/list-button.png');
+	padding-left: 16px;
+}
+
+.meer-info-box{
+	margin-left: 174px;
+	margin-top: 136px;
+	position: absolute;
+	right: 15px;
+	width: 160px;
+}
+
+//Contact pagina
+
+#input_1_1, #input_1_2, #input_1_3, #input_1_4, #input_1_5{
+	width: 100%;
+	border:1px solid #cbcbcb;
+	border-radius: 2px;
+}
+
+//App pagina
+.google-play{
+   display: block;
+   margin-top: 30px;
+}
+
+.qr_code{
+  width: 200px;
+  margin-top: 30px;
+}
+
+
+//Responsive gedeelte
+@media all and (min-width: 800px) { 
+	.home-boxes{
+		background-image: url("../img/divider.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+}
+
+@media all and (max-width: 1000px) { 
+	.meer-info{
+		display: none;
+	}
+
+	.bx-pager{
+		display: none;
+	}
+}
+
+@media all and (max-width: 800px) { 
+	.header-tekst{
+		display: none;
+	}
+
+	.header-badge-area{
+		display: none;
+	}
+
+	.orange-button{
+		display: none;
+	}
+
+}

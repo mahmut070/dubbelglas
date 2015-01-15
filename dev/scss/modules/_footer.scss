@@ -1,0 +1,90 @@
+.Footer {
+	background: #244570;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.Socket{
+	background: #ffffff;
+	text-align: center;
+}
+
+.Socket p{
+	color: #6f6f6f;
+}
+
+.Socket a{
+	color: #07548c;
+}
+
+.orange-text{
+	color: #f59725;
+}
+
+.td-rechts{
+	width: 50%;
+}
+
+.openingstijden{
+	border-radius: 5px;
+	border:1px solid #303539;
+	color: #ffffff;
+	padding: 10px 25px 10px 25px;
+	@include background-image(linear-gradient(to top, #fe7203, #ee8a00));
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	box-shadow:         inset 0px 1px 1px 0px rgba(255, 255, 255, 1);		
+}
+
+.openingstijden b{
+	font-size: 23px;
+}
+
+.google-maps-footer{
+	padding: 10px;
+	background: #FFF;
+}
+
+.footer-info{
+	color: #ffffff;
+	text-align: right;
+}
+
+.footer-info h4{
+	display: inline;
+}
+
+.footer-info a{
+	color: #ffffff;
+}
+
+#nav_menu-2{
+	visibility: hidden;
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+	position: relative;
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+@media all and (max-width: 800px) { 
+	.openingstijden{
+		margin-bottom: 20px;
+	}
+
+	.footer-info{
+		margin-top: 20px;
+	}
+}

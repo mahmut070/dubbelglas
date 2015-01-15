@@ -1,0 +1,106 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+.header-full-bg{
+  background  : url("../img/header_bg.png");
+  background-repeat: repeat-x;
+}
+
+.header-top{
+  margin-top: 20px;
+}
+
+.website-titel{
+  color: #ffffff;
+  font-size: 51px;
+}
+
+.website-titel-caption{
+  display: block;
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: -9px;
+}
+
+.header-tekst{
+  position: relative;
+}
+
+.header-tekst img{
+  position: absolute;
+  top: 60px;
+}
+
+.header-badge{
+  width: 101px;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+.Slider {
+	visibility: hidden;
+}
