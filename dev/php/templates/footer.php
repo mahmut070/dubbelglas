@@ -28,10 +28,12 @@
 						2565 ES Den Haag <br>
 						T: (070) 363 2860 <br>
 						F: (070) 427 6866 <br>
-						E: info@glaswacht.nl
+						E: info@glaswacht.com
 					</p>
 
-					<a href="/app">Download de Dubbelglas app</a>
+					<a href="/app">Download de Dubbelglas app</a> <br><br>
+			 
+			 		<a target="_blank" href="https://www.facebook.com/pages/Glashandel-de-Glaswacht-Den-Haag/431399946898058?sk=timeline&ref=page_internal"><img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.png"></a>
 
 					<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 					<div class="Footer-inner u-gridRow">

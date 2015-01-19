@@ -42,7 +42,7 @@ Template Name: Landingspagina
 
 
 	
-				<h5 class="titel-blue">De Glaswacht</h5>
+				<h5 class="titel-blue">De Glaswacht is gespecialiseerd in het plaatsen van dubbelglas in bestaande kozijnen</h5>
 			
 				<p class="intro-text">
 					Glashandel de Glaswacht is in 1976 opgericht en een begrip geworden in Den Haag en omgeving. Onze jarenlange ervaring, uitmuntende service en vakkundige installatie is een constante waarde geworden, waar onze zakelijke en particuliere klanten op vertrouwen en bouwen. <br><br>

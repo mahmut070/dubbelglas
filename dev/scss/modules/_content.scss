@@ -44,7 +44,7 @@
 	margin-left: 174px;
 	position: absolute;
 	right: 0;
-	bottom: -134px;
+	bottom: -74px;
 }
 
 
@@ -148,6 +148,26 @@
 	width: 255px;
 }
 
+.home-boxes-right-top{
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+.home-boxes-right-top b{
+	font-size: 16px;
+}
+
+.home-boxes-right-top p {
+	text-align: left;
+	color: #6f6f6f;
+}
+
+.home-boxes-right-top img{
+	margin-top: 10px;
+	width: 255px;
+}
+
 .home-box-right{
 	margin-top: 20px;
 }
@@ -157,7 +177,7 @@
 }
 
 .producten-lijst{
-	color: #8a8a8a;
+	color: #616161;
 	list-style-image: url('../img/list-button.png');
 	padding-left: 16px;
 }
@@ -220,6 +240,13 @@
 
 	.orange-button{
 		display: none;
+	}
+
+}
+
+@media all and (max-width: 500px) { 
+	.big-button-text{
+		font-size: 14px;
 	}
 
 }
