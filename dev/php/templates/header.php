@@ -57,9 +57,9 @@
             </div>    
 
             <div class="u-gridCol4 header-tekst">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/header_tekst.png">
+                <b class="website-titel">Glaswacht</b>
+                <p class="website-titel-caption">Den Haag</p>
             </div>  
-
         </div>
     </div>
 

@@ -29,7 +29,7 @@ Template Name: Contactpage
 							<div class="adress-info">
 								<p>Dubbelglas Den Haag</p>
 								<p>Goudenregenstraat 205</p>
-								<p>2565 ES Den Haag Den Haag</p>
+								<p>2565 ES Den Haag</p>
 								<p>Email: info@glaswacht.com</p>
 								<p>Tel: (070) 3632860</p>
 							</div>

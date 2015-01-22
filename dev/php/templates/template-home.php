@@ -74,8 +74,8 @@ Template Name: Homepage
 		</div>
 
 		<div class="u-gridCol4 home-boxes">
-			 <b>Dubbelglas in bestaande kozijnen</b>
-			 <a class="button-style meer-info-box" href="http://www.glaswacht.com">Meer informatie</a>
+			 <b>Dubbelglas in houten kozijnen</b>
+			 <a class="button-style meer-info-box" href="/houten-kozijn">Meer informatie</a>
 			 <img src="<?php echo get_stylesheet_directory_uri();?>/img/houtenkozijn.png">
 			 <p>Wij plaatsen Dubbelglas in bestaande <br> houten kozijnen</p>
 		</div>
